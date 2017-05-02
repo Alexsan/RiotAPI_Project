@@ -1,0 +1,160 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.header {
+	z-index: 100001;
+}
+
+// .starter-template {
+//  padding: 40px 15px;
+//  text-align: center;
+// }
+
+//.template_views {
+//  padding-top: 70px;
+//  padding-bottom: 40px;
+//  background-color: #eee;
+//  margin-bottom: 60px;
+//}
+
+body {
+  height: 100%;
+  padding-top: 70px;
+  // padding-bottom: 40px;
+  padding-bottom: 144px;
+  background-color: #eee;
+  margin-bottom: 60px;
+  background: url("../images/Website-Template-red.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc291e;
+    border-color: #dc291e;
+	font-weight: bold;
+}
+
+.btn-primary:focus
+{
+	color: #fff;
+    // background-color: #dc291e;
+    // border-color: #dc291e;
+	background-color: #a94442;
+	border-color: #a94442;
+	font-weight: bold;
+	outline: 0;
+}
+
+.btn-primary:active:focus
+{
+	color: #000;
+	background-color: #dc291e;
+    border-color: #dc291e;
+	font-weight: bold;
+	outline: 0;
+	box-shadow: none;
+}
+
+.btn-primary:hover
+{
+	color: #fff;
+    // background-color: #dc291e;
+    // border-color: #dc291e;
+	background-color: #a94442;
+	border-color: #a94442;
+	font-weight: bold;
+}
+
+.labels
+{
+	color: #dc291e;
+}
+
+.form-area {
+	max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.submit-view {
+	margin-top: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // height: 60px;
+  // background-color: #f5f5f5; 
+  // background: url("../images/footer_bg.png") no-repeat center center fixed;
+  height: 190px;
+  // padding: 155px 0 0 0;
+}
+
+.footerSection1
+{
+	text-align: center;
+}
+
+.footerSection1 > tbody > tr > td
+{
+	border: 0;
+}
+
+.footerlogo
+{
+	content: url("../images/image.png");
+	height: 65px;
+	width: 65px;
+	// float: left;
+}
+
+.footer > div > div
+{
+	text-align: center;
+}
+
+.socialIcons
+{
+	//text-align:center;
+	background: inherit;
+	color: #dc291e;
+	margin: 0 auto;
+}
+
+.socialIcons > tbody > tr > td
+{
+	width: 30px;
+}
+
+.social
+{
+	display: inline;
+}
+
+.footerSection2
+{
+	text-align: center;
+}
+
+.footerSection2 > tbody > tr > td
+{
+	border: 0;
+	color: #dc291e;
+}

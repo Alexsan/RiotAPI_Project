@@ -1,0 +1,39 @@
+<div class="container">
+		<div ng-controller="summoner-by-name">
+			<form class="form-area" ng-submit="submit()">
+				<label class="labels"> First Name: </label><input class="form-control" "type="text" ng-model="summonerName.text" ng-keyup="fetchData()" value={{nameTyped}}><br>
+				<label class="labels"> Region: </label>
+				<select class="form-control" name="mySelect" id="mySelect"
+					ng-options="option.name for option in items.availableOptions track by option.id"
+					ng-model="items.selectedOption">
+				</select>
+				<input class="btn btn-lg btn-primary btn-block submit-view" type="submit" id="submit" value="Submit" />
+			</form>
+			
+			<!-- <ul ng-repeat="post in posts">
+				<li>
+					<pre>
+					<code>
+					{{post}}
+					</code>
+					</pre>
+				</li>
+			</ul> -->
+			<span id="results">
+			</span>
+			
+			<!-- An element a visitor can click if they <3 comments! -->
+			<span class="show-comments btn btn-lg btn-primary btn-block ">Load comments</span>
+
+			<!-- The empty element required for Disqus to loads comments into -->  
+			<div id="disqus_thread"></div>
+		</div>
+</div>
+<!--
+<div id="container">
+	<iframe id="player" type="text/html" width="640" height="390"
+		src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+		frameborder="0">
+	</iframe>
+</div>
+-->
